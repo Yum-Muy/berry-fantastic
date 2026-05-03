@@ -51,7 +51,6 @@ public class PieBlock extends Block{
 		return SHAPES[state.getValue(BITES)];
 	}
 
-
 	@Override
 	protected InteractionResult useItemOn(
 		final ItemStack itemStack,

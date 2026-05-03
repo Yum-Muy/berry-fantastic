@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "food",
+	"key": {
+		"A": "minecraft:milk_bucket",
+		"B": "minecraft:sugar",
+		"C": "minecraft:wheat",
+		"D": "#minecraft:eggs",
+		"E": "minecraft:glow_berries"
+	},
+	"pattern": [
+		"EEE",
+		"DBD",
+		"CAC"
+	],
+	"result": {
+		"count": 1,
+		"id": "berry_fantastic:glow_berry_pie"
+	}
+}

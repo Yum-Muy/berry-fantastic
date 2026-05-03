@@ -18,6 +18,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 import static io.github.yummuy.berryfantastic.BerryFantastic.LOGGER;
+import static io.github.yummuy.berryfantastic.ModBlocks.GLOW_BERRY_PIE_BLOCK;
 import static io.github.yummuy.berryfantastic.ModBlocks.SWEET_BERRY_PIE_BLOCK;
 
 public class ModItems {
@@ -37,9 +38,9 @@ public class ModItems {
 		.title(Component.translatable("creativeTab.berry_fantastic"))
 		.displayItems((params, output) -> {
 			output.accept(SWEET_BERRY_PIE_BLOCK.asItem());
+			output.accept(GLOW_BERRY_PIE_BLOCK.asItem());
 		})
 		.build();
-//public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Properties());
 
 	public static void initialize(){
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, BF_CREATIVE_TAB_KEY, BF_CREATIVE_TAB);

@@ -1,0 +1,23 @@
+{
+	"textures": {
+		"particle": "berry_fantastic:block/glow_berry_pie_outer",
+		"bottom": "berry_fantastic:block/glow_berry_pie_bottom",
+		"top": "berry_fantastic:block/glow_berry_pie_top",
+		"outside": "berry_fantastic:block/glow_berry_pie_outer",
+		"inside": "berry_fantastic:block/glow_berry_pie_inner"
+	},
+	"elements": [
+		{   "from": [ 5, 0, 2 ],
+			"to": [ 14, 6, 14 ],
+			"faces": {
+				"down":  { "texture": "#bottom", "cullface": "down" },
+				"up":    { "texture": "#top" },
+				"north": { "texture": "#outside" },
+				"south": { "texture": "#outside" },
+				"west":  { "texture": "#inside" },
+				"east":  { "texture": "#outside" }
+			}
+		}
+	]
+}
+

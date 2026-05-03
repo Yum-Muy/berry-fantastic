@@ -47,6 +47,19 @@ public class ModBlocks {
 			.stacksTo(1),
 		true
 	);
+	public static final Block GLOW_BERRY_PIE_BLOCK = register(
+		"glow_berry_pie",
+		PieBlock::new,
+		BlockBehaviour.Properties.of()
+			.forceSolidOn()
+			.strength(0.5F)
+			.sound(SoundType.WOOL)
+			.pushReaction(PushReaction.DESTROY),
+		new Item.Properties()
+			.setId(keyOfItem("glow_berry_pie"))
+			.stacksTo(1),
+		true
+	);
 
 
 	public static void initialize() {
