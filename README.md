@@ -9,13 +9,9 @@ Pies in the craft :fire:
 ---
 
 More elaborately, this mod adds:
-- Pies for sweet berries
-- pies being differently consumable (similar to cakes)
-- maybe more if I got more time :fire:
-
-[//]: # (`path/to/config/files` if you have them)
-
-Screenshots of features where possible
+- Pies for sweet and glow berries
+- Pies being differently consumable (similar to cakes)
+- Maybe more if I got more time :fire:
 
 ---
 
