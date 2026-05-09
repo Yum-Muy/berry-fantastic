@@ -44,7 +44,8 @@ public class ModBlocks {
 			.pushReaction(PushReaction.DESTROY),
 		new Item.Properties()
 			.setId(keyOfItem("sweet_berry_pie"))
-			.stacksTo(1),
+			.stacksTo(1)
+			.useBlockDescriptionPrefix(),
 		true
 	);
 	public static final Block GLOW_BERRY_PIE_BLOCK = register(
@@ -57,7 +58,8 @@ public class ModBlocks {
 			.pushReaction(PushReaction.DESTROY),
 		new Item.Properties()
 			.setId(keyOfItem("glow_berry_pie"))
-			.stacksTo(1),
+			.stacksTo(1)
+			.useBlockDescriptionPrefix(),
 		true
 	);
 
